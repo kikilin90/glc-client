@@ -1,6 +1,6 @@
 require "library/nsq"
 require "os"
-require "settings"
+require "conf"
 require "json"
 
 local clientid, recv = ...
